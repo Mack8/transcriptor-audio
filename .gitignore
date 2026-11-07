@@ -1,0 +1,25 @@
+# Entornos y caché de Python
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+
+# Secretos
+.env
+.env.*
+!.env.example
+
+# Datos del usuario: transcripciones, audio y bases locales
+transcripciones/
+*.db
+*.sqlite
+*.mp3
+*.m4a
+*.wav
+*.ogg
+*.opus
+*.flac
+*.mp4
+*.mkv
+*.webm
+!tests/**/*.flac
